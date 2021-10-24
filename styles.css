@@ -1,0 +1,80 @@
+
+.wrapper {
+    display: inline-block;
+    padding-top: 100px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #58585a
+}
+
+ul.checklist {
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+label.checkbox-text {
+    display: flex;
+    transform: rotate(315deg);
+    white-space: nowrap;
+    font-size: 14px;
+    margin: 0px 0px 25px 8px;
+}
+
+input.checklist-checkbox {
+    width: 30px;
+    height: 30px;
+    margin: 10px 30px 0px -20px;
+    outline: 3px solid #D97B0D;
+    outline-offset: -2px;
+}
+
+.dash-line {
+    border-top: 5px dashed #58585a;
+    z-index: -1;
+    margin-top: -34px;
+    width: 90%;
+    margin-left: 48px;
+}
+
+li.competition-preview {
+    background: #e84e20;
+    padding: 5px 25px 15px 20px;
+    margin-right: 52px;
+    margin-bottom: -50px;
+    color: white;
+    width: 200px;
+}
+
+li.new-select {
+    width: 98px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 5px 0px 0px;
+}
+
+span.seven {
+    float: left;
+    font-size: 40px;
+    margin-top: -2px;
+}
+
+input[type=checkbox]:checked:after {
+    content: "\1F5F8";
+    display: block;
+    color: #D97B0D;
+    background-color: #fff;
+    font-size: 260%;
+    margin-top: -6px;
+    padding-left: 1.5px;
+}
+
+input#joinmathsworldseries {
+    margin-top: -4px;
+}

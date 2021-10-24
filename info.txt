@@ -1,0 +1,2 @@
+I created the html and CSS for an interactive desktop checklist graphic for use on the numberfit.com website.
+
